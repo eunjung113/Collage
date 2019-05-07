@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>아니야 새끼야</title>
+	<style type="text/css">
+		.wrap{width: 1080px; margin: auto;}
+		.section{background: url('glitter.jpg'); background-size: 100%; position: relative;}
+		.glitter{size: 100%; z-index: 0; width: 100%;}
+
+		.duck1{display: block; position: absolute; width: 500px; top: 100px; z-index: 1;}
+		.duck1:hover{}
+		.sun1{display: block; position: absolute; width: 220px; top: 80px; left: 220px; z-index: 2; opacity: 0;}
+		.sun1:hover{opacity: 1.0;}
+
+		.duck2{display: block; position: absolute; width: 600px; top: 400px; left: 460px; z-index: 3;}
+		.sun2{display: block; position: absolute; width: 100px; top: 400px; left: 830px; z-index: 4; opacity: 0;}
+		.sun2:hover{opacity: 1.0;}
+
+		.duck3{display: block; position: absolute; width: 500px; top: 700px; left: 100px; z-index: 5;}
+		.sun3{display: block; position: absolute; z-index: 6; width: 200px; left: 170px; top: 770px; opacity: 0;}
+		.sun3:hover{opacity: 1.0; transform: rotate(20deg);}
+
+		.duck4{display: block; position: absolute; width: 500px; top: 1100px; left: 550px; z-index: 7;}
+		.sun4{display: block; position: absolute; z-index: 8; width: 300px; top: 1050px; left: 720px; opacity: 0;}
+		.sun4:hover{opacity: 1.0; transform: rotate(-10deg);}
+
+		.duck5{display: block; position: absolute; width: 500px; top: 1600px; z-index: 9;}
+		.sun5{display: block; position: absolute; width: 100px; top: 1650px; left: 120px; z-index: 10; opacity: 0;}
+		.sun5:hover{opacity: 1.0;}
+
+		.ment1{display: block; position: absolute; width: 200px; top: -50px; z-index: 11; left: 400px; transition: all 1s; animation: wa 1s infinite alternate cubic-bezier(.88,1.31,.48,.17);}
+		@keyframes wa{to{width: 800px;}}
+
+		.ment2{display: block; position: absolute; width: 800px; top: 1200px; z-index: 12; left: 0px; animation: du 1.5s infinite alternate cubic-bezier(1,.08,1,1.33)}
+		@keyframes du{to{left: 200px;}}
+
+		.ment3{display: block; position: absolute; z-index: 13; width: 800px; top: 1550px; left: 300px; opacity: 0; transform: rotate(-25deg); animation: ck 0.4s infinite alternate;}
+		@keyframes ck{to{opacity: 1.0;}
+
+		footer{text-align: center;}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<section class="section">
+			<img src="glitter.jpg" class="glitter">
+			<img src="glitter.jpg" class="glitter">
+			<img src="glitter.jpg" class="glitter">
+
+			<img src="duck1.png" class="duck1">
+			<img src="sun1.png" class="sun1">
+
+			<img src="duck2.png" class="duck2">
+			<img src="sun2.png" class="sun2">
+
+			<img src="duck3.png" class="duck3">
+			<img src="sun3.png" class="sun3">
+
+			<img src="duck4.png" class="duck4">
+			<img src="sun4.png" class="sun4">
+
+			<img src="duck5.png" class="duck5">
+			<img src="sun5.png" class="sun5">
+
+			<img src="1.png" class="ment1">
+			<img src="2.png" class="ment2">
+			<img src="3.png" class="ment3">
+		</section>
+	</div>
+</body>
+<footer><p>copyright©2019 HKNU DESIGN eun-jung Lee. all rights reserved.</p></footer>
+</html>
